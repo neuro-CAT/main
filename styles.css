@@ -9,6 +9,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
+
   }
 
 .button1 {
@@ -127,4 +129,10 @@
     position: fixed;
     top: 379px;
     right: 55px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
