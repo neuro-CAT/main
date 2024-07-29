@@ -1,0 +1,10 @@
+@font-face {
+    font-family: pokemon;
+    src: url(Pokemon\ Classic.ttf);
+  }
+
+  body {
+    display: flex;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+  }
