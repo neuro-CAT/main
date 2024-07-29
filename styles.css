@@ -9,8 +9,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
-
   }
 
 .button1 {
@@ -135,4 +133,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+html, body {
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
 }
